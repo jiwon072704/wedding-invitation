@@ -15,37 +15,27 @@ export function AccountInfo() {
 
   const groomAccounts: Account[] = [
     {
-      bank: '기업은행',
-      accountNumber: '34509580401012',
-      holder: '김현민'
+      bank: '하나은행',
+      accountNumber: '438-910939-76307',
+      holder: '한지수'
     },
     {
-      bank: '우리은행',
-      accountNumber: '680-314147-02-101',
-      holder: '김병오 (신랑 아버지)'
+      bank: '새마을금고',
+      accountNumber: '9003-2101-4986-1',
+      holder: '한춘석(신랑 아버지)'
     },
     {
-      bank: '신협은행',
-      accountNumber: '03196-13-053126',
-      holder: '진은선 (신랑 어머니)'
+      bank: '국민은행',
+      accountNumber: '506501-04-345101',
+      holder: '최경순(신랑 어머니)'
     }
   ];
 
   const brideAccounts: Account[] = [
     {
-      bank: 'KB국민은행',
-      accountNumber: '528702-04-044944',
-      holder: '이지원'
-    },
-    {
-      bank: 'KB국민은행',
-      accountNumber: '782702-04-178487',
-      holder: '이경민 (신부 아버지)'
-    },
-    {
-      bank: 'KB국민은행',
-      accountNumber: '031-24-0357-301',
-      holder: '남경애 (신부 어머니)'
+      bank: '우리은행',
+      accountNumber: ' 1002-466-672100',
+      holder: '테리야마 미쿠'
     }
   ];
 

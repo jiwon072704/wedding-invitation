@@ -1,7 +1,6 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ScrollAnimation } from './ScrollAnimation';
-import jiwonParents from '../assets/images/jiwonParents.png';
-import hyeonminParents from '../assets/images/hm2.png';
+import venueImage from '../assets/images/venueg.jpg';
 
 export function ParentsInfo() {
   return (
@@ -23,7 +22,7 @@ export function ParentsInfo() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 mb-8">
               <div className="aspect-[3/4] overflow-hidden bg-gray-100">
                 <ImageWithFallback
-                  src={hyeonminParents}
+                  src={venueImage}
                   alt="신랑 부모님"
                   className="w-full h-full object-cover"
                 />
@@ -33,11 +32,11 @@ export function ParentsInfo() {
                 <div className="space-y-1 text-gray-600">
                   <div>
                     <span className="text-sm text-gray-500">아버지</span>
-                    <span className="ml-2"> 김병오</span>
+                    <span className="ml-2"> 한춘석</span>
                   </div>
                   <div>
                     <span className="text-sm text-gray-500">어머니</span>
-                    <span className="ml-2"> 진은선</span>
+                    <span className="ml-2"> 최경순</span>
                   </div>
                 </div>
               </div>
@@ -49,7 +48,7 @@ export function ParentsInfo() {
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 mb-8">
               <div className="aspect-[3/4] overflow-hidden bg-gray-100">
                 <ImageWithFallback
-                  src={jiwonParents}
+                  src={venueImage}
                   alt="신부 부모님"
                   className="w-full h-full object-cover"
                 />
@@ -59,11 +58,11 @@ export function ParentsInfo() {
                 <div className="space-y-1 text-gray-600">
                   <div>
                     <span className="text-sm text-gray-500">아버지</span>
-                    <span className="ml-2"> 이경민</span>
+                    <span className="ml-2"> 테라야마 아츠시</span>
                   </div>
                   <div>
                     <span className="text-sm text-gray-500">어머니</span>
-                    <span className="ml-2"> 남경애</span>
+                    <span className="ml-2"> 테라야마 쿠미코</span>
                   </div>
                 </div>
               </div>

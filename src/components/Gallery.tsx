@@ -1,63 +1,17 @@
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState, useRef } from 'react';
-import WeddingImage1 from '../assets/images/1.png';
-import WeddingImage2 from '../assets/images/2.jpg';
-import WeddingImage3 from '../assets/images/3.jpg';
-import WeddingImage4 from '../assets/images/4.png';
-import WeddingImage5 from '../assets/images/5.png';
-import WeddingImage6 from '../assets/images/6.png'; 
-import WeddingImage7 from '../assets/images/7.png';
-import WeddingImage8 from '../assets/images/8.png';
-import WeddingImage9 from '../assets/images/9.jpg';
-
-
+import VenueImage from '../assets/images/venueg.jpg';
 
 const galleryImages = [
-  {
-    id: 1,
-    url: WeddingImage1,
-    alt: 'Wedding photo 1'
-  },
-  {
-    id: 2,
-    url: WeddingImage2,
-    alt: 'hm'
-  },
-  {
-    id: 3,
-    url: WeddingImage3,
-    alt: 'jw2'
-  },
-  {
-    id: 4,
-    url: WeddingImage4,
-    alt: 'Wedding photo 4'
-  },
-  {
-    id: 5,
-    url: WeddingImage5,
-    alt: 'Wedding photo 5'
-  },
-  {
-    id: 6,
-    url: WeddingImage6,
-    alt: 'Wedding photo 6'
-  },
-  {
-    id: 7,
-    url: WeddingImage7,
-    alt: 'Wedding photo 7'
-  },
-  {
-    id: 8,
-    url: WeddingImage8,
-    alt: 'Wedding photo 8'
-  },
-  {
-    id: 9,
-    url: WeddingImage9,
-    alt: 'Wedding photo 9'
-  }
+  { id: 1, url: VenueImage, alt: 'Wedding photo 1' },
+  { id: 2, url: VenueImage, alt: 'Wedding photo 2' },
+  { id: 3, url: VenueImage, alt: 'Wedding photo 3' },
+  { id: 4, url: VenueImage, alt: 'Wedding photo 4' },
+  { id: 5, url: VenueImage, alt: 'Wedding photo 5' },
+  { id: 6, url: VenueImage, alt: 'Wedding photo 6' },
+  { id: 7, url: VenueImage, alt: 'Wedding photo 7' },
+  { id: 8, url: VenueImage, alt: 'Wedding photo 8' },
+  { id: 9, url: VenueImage, alt: 'Wedding photo 9' },
 ];
 export function Gallery() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);

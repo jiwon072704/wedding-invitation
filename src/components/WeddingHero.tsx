@@ -1,5 +1,5 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import weddingImage from '../assets/images/4-1.png';
+import weddingImage from '../assets/images/main.png';
 import { ChevronDown } from 'lucide-react';
 
 

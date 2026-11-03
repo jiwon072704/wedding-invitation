@@ -11,9 +11,9 @@ export function Info() {
         <ScrollAnimation>
             <div className="text-center bg-gray-50 space-y-6 text-gray-700 leading-relaxed">
           <p>
-            2026년 06월 27일 토요일 오후 1시 40분
+          2027년 3월 21일 일요일 오후 4시 (16:00)
             <br />
-            더 베뉴지 서울 1층 네이처홀
+            일본 니가타 그랜드호텔 (3 Nocho Shimookawamaedori, Chuo Ward, Niigata, 951-8052 일본)
           </p>
           </div>
         </ScrollAnimation>

@@ -18,17 +18,8 @@ export function CoupleInfo() {
           </div>
         <div className="text-center mb-12 space-y-6 text-gray-700 leading-relaxed">
           <p>
-            "함께 모든 계절을 보내자"<br />
-            라는 한마디에서 저희의 이야기가 시작되었습니다.
-          </p>
-          <p>
-            6년 전, 사랑을 얘기하며 나눴던 그 약속을<br />
-            여러분들 앞에서 다시한번 다짐하려 합니다.
-            </p>
-            <p>
-            저희만의 색으로 채워갈 일곱번째 여름을 맞이하며<br />
-            항상 곁에서 아껴주셨던 고마운 분들을 모십니다.
-           
+          한국과 일본, 서로 다른 곳에서 살아온 두 사람이 인연을 맺고 하나의 가족이 되었습니다. 귀한 걸음으로 저희의 새로운 시작을 함께해 주시고, 앞으로의 행복을 따뜻하게 축복해 주시면 감사하겠습니다.
+
           </p>
         </div>
       </ScrollAnimation>
@@ -37,11 +28,11 @@ export function CoupleInfo() {
       <ScrollAnimation delay={200}>
         <div className="text-center space-y-3 mb-8 text-gray-700">
           <div className="flex items-center justify-center gap-2">
-            <span className="text-sm">김병오 · 진은선</span>
+            <span className="text-sm">한춘석 · 최경순</span>
             <span className="text-sm text-gray-400">의 아들</span>
-            <span>김현민</span>
+            <span>한지수</span>
             <button
-              onClick={() => handleCall('01040411972')}
+              onClick={() => handleCall('01026651863')}
               className="inline-flex items-center justify-center w-8 h-8 hover:bg-gray-100 rounded-full transition-colors"
             >
               <Phone className="w-4 h-4 text-pink" />
@@ -49,11 +40,11 @@ export function CoupleInfo() {
           </div>
 
           <div className="flex items-center justify-center gap-2">
-            <span className="text-sm">이경민 · 남경애</span>
+            <span className="text-sm">테라야마 아츠시 · 테라야마 쿠미코</span>
             <span className="text-sm text-gray-400">의 딸</span>
-            <span>이지원</span>
+            <span>테리야마 미쿠</span>
             <button
-              onClick={() => handleCall('01075695163')}
+              onClick={() => handleCall('01039274136')}
               className="inline-flex items-center justify-center w-8 h-8 hover:bg-gray-100 rounded-full transition-colors"
             >
               <Phone className="w-4 h-4 text-pink" />
@@ -101,9 +92,9 @@ export function CoupleInfo() {
               <div className="space-y-3">
                 <div className="text-sm text-gray-500 mb-3">신랑측 혼주</div>
                 <div className="flex items-center justify-between py-3 border-b border-gray-100">
-                  <span className="text-gray-700">아버지 김병오</span>
+                  <span className="text-gray-700">아버지 한춘석</span>
                   <button
-                    onClick={() => handleCall('01091999422')}
+                    onClick={() => handleCall('01036711863')}
                     className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
@@ -111,9 +102,9 @@ export function CoupleInfo() {
                   </button>
                 </div>
                 <div className="flex items-center justify-between py-3 border-b border-gray-100">
-                  <span className="text-gray-700">어머니 진은선</span>
+                  <span className="text-gray-700">어머니 최경순</span>
                   <button
-                    onClick={() => handleCall('01088688466')}
+                    onClick={() => handleCall('01055781863')}
                     className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
@@ -126,24 +117,12 @@ export function CoupleInfo() {
               <div className="space-y-3">
                 <div className="text-sm text-gray-500 mb-3">신부측 혼주</div>
                 <div className="flex items-center justify-between py-3 border-b border-gray-100">
-                  <span className="text-gray-700">아버지 이경민</span>
-                  <button
-                    onClick={() => handleCall('01093695163')}
-                    className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
-                  >
-                    <Phone className="w-4 h-4" />
-                    <span className="text-sm">전화하기</span>
-                  </button>
+                  <span className="text-gray-700">아버지 테라야마 아츠시</span>
+
                 </div>
                 <div className="flex items-center justify-between py-3 border-b border-gray-100">
-                  <span className="text-gray-700">어머니 남경애</span>
-                  <button
-                    onClick={() => handleCall('01030695163')}
-                    className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
-                  >
-                    <Phone className="w-4 h-4" />
-                    <span className="text-sm">전화하기</span>
-                  </button>
+                  <span className="text-gray-700">어머니 테라야마 쿠미코
+                  </span>
                 </div>
               </div>
             </div>

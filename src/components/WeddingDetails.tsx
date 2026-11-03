@@ -3,7 +3,7 @@ import { ScrollAnimation } from './ScrollAnimation';
 
 export function WeddingDetails() {
   // Calculate D-Day
-  const weddingDate = new Date('2026-06-27');
+  const weddingDate = new Date('2027-03-21');
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   weddingDate.setHours(0, 0, 0, 0);
@@ -16,7 +16,7 @@ export function WeddingDetails() {
         <ScrollAnimation>
           <div className="text-center mb-12">
             <h2 className="text-lg text-pink mb-2">Calendar</h2>
-            <p className="text-gray-400 text-sm">2026.06.27</p>
+            <p className="text-gray-400 text-sm">2027.03.21</p>
           </div>
         </ScrollAnimation>
 
@@ -25,7 +25,7 @@ export function WeddingDetails() {
         <ScrollAnimation delay={400}>
           <div className="mt-8 bg-white rounded-2xl shadow-lg p-6 border border-gray-200">
             <div className="text-center mb-4">
-              <div className="text-xl text-gray-700">06월</div>
+              <div className="text-xl text-gray-700">03월</div>
             </div>
             <div className="grid grid-cols-7 gap-2">
               {['일', '월', '화', '수', '목', '금', '토'].map((day) => (
@@ -39,7 +39,7 @@ export function WeddingDetails() {
                 <div
                   key={date}
                   className={`text-center py-2 rounded-lg ${
-                    date === 27
+                    date === 21
                       ? 'bg-pink text-white'
                       : 'text-gray-700 hover:bg-gray-100'
                   }`}
@@ -66,9 +66,9 @@ export function WeddingDetails() {
             <div className="text-sm text-gray-500 mt-2 px-4 text-center leading-relaxed">
               {dDay > 0 && (
                 <>
-                  현민
+                  한지수
                   <Heart className="w-3 h-3 text-pink fill-pink inline-block mx-0.5" />
-                  지원의 결혼식이 {dDay}일 남았습니다
+                  테리야마 미쿠의 결혼식이 {dDay}일 남았습니다
                 </>
               )}
               {dDay === 0 && '오늘은 결혼식 날입니다'}
