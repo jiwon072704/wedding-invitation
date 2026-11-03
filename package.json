@@ -59,6 +59,10 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "npx vite build"
+            "build": "chmod -R u+x node_modules/.bin node_modules/vite/bin node_modules/@esbuild node_modules/esbuild node_modules/@swc node_modules/@rollup || true && node node_modules/vite/bin/vite.js build"
+      },
+      "allowScripts": {
+            "@swc/core": true,
+            "esbuild": true
       }
 }
