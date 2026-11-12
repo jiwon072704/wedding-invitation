@@ -1,6 +1,6 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ScrollAnimation } from './ScrollAnimation';
-import HotelImage from '../assets/images/venueg.jpg';
+import HotelImage from '../assets/images/hotel.jpg';
 
 export function GuestInfo() {
   return (
