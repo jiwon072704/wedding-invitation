@@ -22,7 +22,7 @@ export default function App() {
       return;
     }
     if (!Kakao.isInitialized()) {
-      const appKey = import.meta.env.VITE_KAKAO_APP_KEY ?? '582bad0acb82f7e49b65c36376853c99';
+      const appKey = import.meta.env.VITE_KAKAO_APP_KEY ?? '24accdacdd5659ca2215eb132b63c37e';
       if (!appKey) {
         alert('VITE_KAKAO_APP_KEY가 설정되지 않았습니다.');
         return;
@@ -31,9 +31,9 @@ export default function App() {
     }
 
     Kakao.Share.sendCustom({
-      templateId: 127287,
+      templateId: 1647489,
       templateArgs: {
-        '청첩장URL': 'https://Jisoo-and-miku.com',
+        '청첩장URL': 'https://wedding-invitation-hazel-psi.vercel.app/',
       }
     });
     alert('카카오톡으로 공유되었습니다.');
