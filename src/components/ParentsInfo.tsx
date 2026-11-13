@@ -1,6 +1,8 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ScrollAnimation } from './ScrollAnimation';
 import venueImage from '../assets/images/venueg.jpg';
+import koreaParentsImage from '../assets/images/korea.png';
+import japanParentsImage from '../assets/images/japan.png';
 
 export function ParentsInfo() {
   return (
@@ -22,7 +24,7 @@ export function ParentsInfo() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 mb-8">
               <div className="aspect-[3/4] overflow-hidden bg-gray-100">
                 <ImageWithFallback
-                  src={venueImage}
+                  src={koreaParentsImage}
                   alt="신랑 부모님"
                   className="w-full h-full object-cover"
                 />
@@ -48,7 +50,7 @@ export function ParentsInfo() {
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 mb-8">
               <div className="aspect-[3/4] overflow-hidden bg-gray-100">
                 <ImageWithFallback
-                  src={venueImage}
+                  src={japanParentsImage}
                   alt="신부 부모님"
                   className="w-full h-full object-cover"
                 />

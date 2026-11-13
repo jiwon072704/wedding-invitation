@@ -31,7 +31,7 @@ export default function App() {
     }
 
     Kakao.Share.sendCustom({
-      templateId: 1647489,
+      templateId: 138880,
       templateArgs: {
         '청첩장URL': 'https://wedding-invitation-hazel-psi.vercel.app/',
       }
