@@ -1,7 +1,7 @@
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState, useRef } from 'react';
 import Image1 from '../assets/images/img1.jpeg';
-import Image2 from '../assets/images/img2.png';
+import Image2 from '../assets/images/img2.jpg';
 import Image3 from '../assets/images/img3.png';
 import Image4 from '../assets/images/img4.png';
 import Image5 from '../assets/images/img5.png';

@@ -1,8 +1,7 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ScrollAnimation } from './ScrollAnimation';
-import venueImage from '../assets/images/venueg.jpg';
 import koreaParentsImage from '../assets/images/korea.png';
-import japanParentsImage from '../assets/images/japan.png';
+import japanParentsImage from '../assets/images/japan.jpg';
 
 export function ParentsInfo() {
   return (
