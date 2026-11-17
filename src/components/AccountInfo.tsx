@@ -35,7 +35,7 @@ export function AccountInfo() {
     {
       bank: '우리은행',
       accountNumber: ' 1002-466-672100',
-      holder: '테리야마 미쿠'
+      holder: '테라야마 미쿠'
     }
   ];
 

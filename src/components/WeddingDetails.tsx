@@ -68,7 +68,7 @@ export function WeddingDetails() {
                 <>
                   한지수
                   <Heart className="w-3 h-3 text-pink fill-pink inline-block mx-0.5" />
-                  테리야마 미쿠의 결혼식이 {dDay}일 남았습니다
+                  테라야마 미쿠의 결혼식이 {dDay}일 남았습니다
                 </>
               )}
               {dDay === 0 && '오늘은 결혼식 날입니다'}

@@ -58,7 +58,7 @@ export default function App() {
       <div className="py-8 text-center text-gray-400 text-sm">
         <p>저희 두사람의 시작을 진심으로 축복해주시는 <br /> 모든 분들께 머리숙여 깊은 감사드립니다. </p>
         <p>행복하게 잘 살겠습니다.</p><br />
-        <p onClick={shareToKatalk}>신랑 한지수 · 신부 테리야마 미쿠</p>
+        <p onClick={shareToKatalk}>신랑 한지수 · 신부 테라야마 미쿠</p>
       </div>
     </div>
   );

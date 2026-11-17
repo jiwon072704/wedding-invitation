@@ -42,7 +42,7 @@ export function CoupleInfo() {
           <div className="flex items-center justify-center gap-2">
             <span className="text-sm">테라야마 아츠시 · 테라야마 쿠미코</span>
             <span className="text-sm text-gray-400">의 딸</span>
-            <span>테리야마 미쿠</span>
+            <span>테라야마 미쿠</span>
             <button
               onClick={() => handleCall('01039274136')}
               className="inline-flex items-center justify-center w-8 h-8 hover:bg-gray-100 rounded-full transition-colors"

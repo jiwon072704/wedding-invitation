@@ -57,7 +57,7 @@ export function AttendanceModal({
               className={`py-3 rounded-lg text-sm border ${side === 'bride' ? 'bg-pink text-white border-pink' : 'bg-gray-100 text-gray-700 border-gray-200'}`}
               onClick={() => setSide('bride')}
             >
-              신부 테리야마 미쿠측
+              신부 테라야마 미쿠측
             </button>
           </div>
         </div>
