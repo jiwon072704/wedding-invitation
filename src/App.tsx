@@ -45,7 +45,6 @@ export default function App() {
       <Info />
       <CoupleInfo />
       <WeddingDetails />
-      <ParentsInfo />
       <Gallery />
       <Location />
       <GuestInfo />
